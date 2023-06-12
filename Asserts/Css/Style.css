@@ -1,6 +1,74 @@
 body{
     font-family: system-ui; 
     }
+
+/* Content css */
+
+.container{
+  width: 100%;
+  height: auto;
+  margin: 2px;
+  background-color:  #e8dfdf  ;
+  border-radius: 20px;
+  
+}
+
+  /* CSS for Responsive */
+  @media screen and (max-width: 768px) {
+    /*---------------------Navigation Bar -----------------*/
+    .navbar {
+      align-items: center;
+    }
+    
+    .navbar-logo {
+      margin-right: auto;
+    }
+    
+    .navbar a {
+      display: block;
+      width: 100%;
+    }
+  
+    
+    #navdropdown{               /*hides the navigation options small screen*/
+        display: none;
+        
+    }
+
+    #navimage img{              /* size of nagigation bar on small screen*/
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar a:hover {
+        background-color: #e8dfdf;
+        color: black;
+        border-radius: 20px;
+        width: fit-content;
+    }
+   
+  }
+
+  @media screen and (min-width: 768px) {  /* Responsive for above 768px */
+
+    /*-------------------- Display Section ------------------*/
+    .row {
+      display: flex;
+    }
+    
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+    
+    .column img{
+      width: 100%;
+      height: auto;
+      margin-left: 0%;
+    }
+
+  }
+
  /* Navigation bar Css */
 .navbar {
     display: flex;
@@ -37,53 +105,18 @@ body{
     width: 0px;
     height: 0px;
 }
-  
-  
-  /* CSS for Responsive Navigation Bar */
-  @media screen and (max-width: 768px) {
-    .navbar {
-      align-items: center;
-    }
     
-    .navbar-logo {
-      margin-right: auto;
-    }
-    
-    .navbar a {
-      display: block;
-      width: 100%;
-    }
-  
-    
-    #navdropdown{               /*hides the navigation options small screen*/
-        display: none;
-        
-    }
 
-    #navimage img{              /* size of nagigation bar on small screen*/
-        width: 40px;
-        height: 40px;
-    }
+/*Image Display*/
+.display{
+  padding: 10px;
 
-    .navbar a:hover {
-        background-color: #e8dfdf;
-        color: black;
-        border-radius: 20px;
-        width: fit-content;
-    }
-   }
-
-/* Content css */
-
-.container{
-    width: 100%;
-    height: auto;
-    margin: 2px;
-    background-color:  #e8dfdf  ;
-    border-radius: 20px;
-    
+}
+.column img{
+  width: 100%;
 }
 
+/* Article Section */
 .article{
   display: flex;
   justify-content: center;
@@ -101,7 +134,7 @@ body{
 }
 
 .one{
-  max-width: 300px;
+  max-width: 280px;
   height: auto;
   padding: 20px;
   margin: 20px;
