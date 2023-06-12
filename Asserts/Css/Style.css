@@ -77,9 +77,46 @@ body{
 
 .container{
     width: 100%;
-    height: 1000px;
+    height: auto;
     margin: 2px;
     background-color:  #e8dfdf  ;
     border-radius: 20px;
-  
+    
+}
+
+.article{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.article i {
+  font-size:small;
+  font-weight: lighter;
+}
+
+.article img{
+  border: 2px solid rgb(152, 106, 244);
+  border-radius: 20px;
+}
+
+.one{
+  max-width: 300px;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #333;
+  border-radius: 20px;
+  background-color:white;
+
+}
+.two{
+  max-width: 300px;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #333;
+  border-radius: 20px;
+  background-color:white;
+
 }
