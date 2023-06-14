@@ -69,7 +69,7 @@ body{
 
   }
 
- /* Navigation bar Css */
+ /* ----------------------------------Navigation bar Css --------------------------------*/
 .navbar {
     display: flex;
     align-items: center;
@@ -107,7 +107,7 @@ body{
 }
     
 
-/*Image Display*/
+/*------------------------------------Image Display---------------------------------------------*/
 .display{
   padding: 10px;
 
@@ -116,7 +116,7 @@ body{
   width: 100%;
 }
 
-/* Article Section */
+/* --------------------------------------Article Section -------------------------------------------*/
 .article{
   display: flex;
   justify-content: center;
@@ -152,4 +152,33 @@ body{
   border-radius: 20px;
   background-color:white;
 
+}
+
+/*--------------------------------------------footerImage---------------------------------------------------*/
+.footerImage{
+  display: flex;
+  width: 100%;
+}
+
+.footerImage img{
+  width: 25%;
+  height: auto;
+}
+
+/*--------------------------------------------footer----------------------------------------------------------*/
+.footer{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: flex-start;
+  background-color: #333;
+  color:white;
+}
+.footer p{
+ margin-right: auto; 
+}
+.footer a{
+  color: white;
+  align-items: center;
+  padding: 5px ;
 }
